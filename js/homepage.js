@@ -25,18 +25,7 @@ $(document).ready( function(){
                 $(this).children('.readBtn').attr('imgexternalurl', popularNews[index+3].optionalPicture.url );
             })
 
-            $('.newsImageBox').html('<img src="'+popularNews[0].optionalPicture.url+'" width="100%" title="'+popularNews[0].title+'" detail="'+popularNews[0].seoTeaser+'" imgexternalurl="'+popularNews[0].optionalPicture.url+'"/><img src="'+ popularNews[1].optionalPicture.url+'" width="100%" title="'+popularNews[1].title+'" detail="'+popularNews[1].seoTeaser+'" imgexternalurl="'+popularNews[1].optionalPicture.url+'" />');
-
-            $('.newsImageBox img').each(function() {
-                $(this).css('cursor', 'pointer');
-                $(this).on('click', function() {
-                    console.log('sdf');
-                    $("#news_title").text($(this).attr("title"));
-                    $("#news_detail").html($(this).attr("detail"));
-                    $("#news_src").html("<img src="+$(this).attr("imgexternalurl")+" width='100%' />");
-                    $("#detailModal").modal();
-                });
-            });
+            $('.newsImageBox').html("<a href='"+'/detail.php?story='+popularNews[0].optionalLink.url+"&imgUrl="+popularNews[0].optionalPicture.url+"&publishDate="+popularNews[0].publicationTime+"'><img src='"+popularNews[0].optionalPicture.url+"' width='100%'/></a><a href='"+'/detail.php?story='+popularNews[1].optionalLink.url+"&imgUrl="+popularNews[1].optionalPicture.url+"&publishDate="+popularNews[1].publicationTime+"'><img src='"+ popularNews[1].optionalPicture.url+"' width='100%' /></a>");
         },
         error: function (jqXhr, textStatus, errorMessage) {
                 console.log(errorMessage);
@@ -47,6 +36,7 @@ $(document).ready( function(){
         $(this).on('click', function() {
             $("#news_title").text($(this).attr("title"));
             $("#news_detail").html($(this).attr("detail"));
+            // $("#news_src").html($(this).attr("detail"));
             $("#news_src").html("<img src="+$(this).attr("imgexternalurl")+" width='100%' />");
             $("#detailModal").modal();
         });
