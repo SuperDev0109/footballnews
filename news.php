@@ -13,8 +13,8 @@
 		<!-- navMenu start -->
 		<div id="mySidepanel" class="sidepanel">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-			<a href="/football/">Home</a>
-			<a href="/football/news.php">News</a>
+			<a href="/index.php">Home</a>
+			<a href="/news.php">News</a>
 		</div>
 		<!-- navMenu end -->
 		<!-- header start -->

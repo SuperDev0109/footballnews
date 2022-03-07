@@ -9,12 +9,12 @@ $(document).ready( function(){
             var news = data.data.sportFeed;
             $('.row .col-md-4 .box').each(function(index) {
                 if (index < 6) {
-                    $(this).children('div').html("<a href='"+'/football/detail.php?story='+news.edges[1].node.cards[index].content.optionalLink.url+"&imgUrl="+news.edges[1].node.cards[index].content.optionalPicture.url+"&publishDate="+news.edges[1].node.cards[index].content.publicationTime+"'><img src="+news.edges[1].node.cards[index].content.optionalPicture.url+" width='100%' /></a>");
+                    $(this).children('div').html("<a href='"+'/detail.php?story='+news.edges[1].node.cards[index].content.optionalLink.url+"&imgUrl="+news.edges[1].node.cards[index].content.optionalPicture.url+"&publishDate="+news.edges[1].node.cards[index].content.publicationTime+"'><img src="+news.edges[1].node.cards[index].content.optionalPicture.url+" width='100%' /></a>");
                     $(this).children('.title1').html( news.edges[1].node.cards[index].content.publicationTime );
                     $(this).children('.title3').html( news.edges[1].node.cards[index].content.title );
                     $(this).children('.title4').html( news.edges[1].node.cards[index].content.seoTeaser );
                 } else {
-                    $(this).children('div').html("<a href='"+'/football/detail.php?story='+news.edges[2].node.cards[index-6].content.optionalLink.url+"&imgUrl="+news.edges[2].node.cards[index-6].content.optionalPicture.url+"&publishDate="+news.edges[1].node.cards[index-6].content.publicationTime+"'><img src="+news.edges[2].node.cards[index-6].content.optionalPicture.url+" width='100%' /></a>");
+                    $(this).children('div').html("<a href='"+'/detail.php?story='+news.edges[2].node.cards[index-6].content.optionalLink.url+"&imgUrl="+news.edges[2].node.cards[index-6].content.optionalPicture.url+"&publishDate="+news.edges[1].node.cards[index-6].content.publicationTime+"'><img src="+news.edges[2].node.cards[index-6].content.optionalPicture.url+" width='100%' /></a>");
                     $(this).children('.title1').html( news.edges[2].node.cards[index-6].content.publicationTime );
                     $(this).children('.title3').html( news.edges[2].node.cards[index-6].content.title );
                     $(this).children('.title4').html( news.edges[2].node.cards[index-6].content.seoTeaser );
