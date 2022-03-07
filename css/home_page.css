@@ -151,16 +151,16 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  position: absolute;
+  /* position: absolute;
   top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   background-color: #FFFFFF;
   background: rgba(255, 255, 255, 1); 
   backdrop-filter: blur(8px); 
   padding: 30px 50px;
   z-index: 999;
-  width: 30%;
+  margin-top: -40px;
 }
 
 .headline .title1 {

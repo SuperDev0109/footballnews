@@ -9,10 +9,6 @@
 </head>
 <body class="homepage" style="font-family: monospace;">
     <div class="homepage_section">
-		<div class="headline">
-			<p class="title1">Loading...</p>
-			<button class="readBtn">Read more -></button>
-		</div>
 		<!-- navMenu start -->
 		<div id="mySidepanel" class="sidepanel">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
