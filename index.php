@@ -55,7 +55,8 @@
 				</div>
 				<div class="col-md-4 newsImageBoxPanel">
 					<div class="newsImageBox">
-						<img src="img/main.png" />
+						<img src="img/home1.png" />
+						<img src="img/home2.png" />
 					</div>
 				</div>
 				<div class="col-md-4">
