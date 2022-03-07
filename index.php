@@ -101,8 +101,8 @@
 			  </button>
 			</div>
 			<div class="modal-body">
-			  <p id="news_title"></p>
 			  <p id="news_src"></p>
+			  <p id="news_title"></p>
 			  <p id="news_detail"></p>
 			</div>
 			<div class="modal-footer">
