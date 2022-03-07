@@ -25,7 +25,7 @@ $(document).ready( function(){
                 $(this).children('.readBtn').attr('imgexternalurl', popularNews[index+3].optionalPicture.url );
             })
 
-            $('.newsImageBox').html("<img src='"+popularNews[0].optionalPicture.url+"' /><img src='"+ popularNews[1].optionalPicture.url+"' />");
+            $('.newsImageBox').html("<img src='"+popularNews[0].optionalPicture.url+"' width='100%'/><img src='"+ popularNews[1].optionalPicture.url+"' width='100%' />");
         },
         error: function (jqXhr, textStatus, errorMessage) {
                 console.log(errorMessage);
