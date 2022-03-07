@@ -7,6 +7,7 @@ $(document).ready( function(){
         },
         success: function (data, status, xhr) {
             var popularNews = data.data.sportFeed.edges[0].node.cards[0].mostReadContents;
+            $('.headline .title1').html(popularNews[0].title);
             $('.exploringNews .box').each(function(index) {
                 $(this).children('.title1').html( popularNews[index].title.substring(0, 30).concat('...') );
                 $(this).children('.readBtn').attr('title', popularNews[index].title );
@@ -26,6 +27,10 @@ $(document).ready( function(){
             })
 
             $('.newsImageBox').html("<a href='"+'/detail.php?story='+popularNews[0].optionalLink.url+"&imgUrl="+popularNews[0].optionalPicture.url+"&publishDate="+popularNews[0].publicationTime+"'><img src='"+popularNews[0].optionalPicture.url+"' width='100%'/></a><a href='"+'/detail.php?story='+popularNews[1].optionalLink.url+"&imgUrl="+popularNews[1].optionalPicture.url+"&publishDate="+popularNews[1].publicationTime+"'><img src='"+ popularNews[1].optionalPicture.url+"' width='100%' /></a>");
+
+            $('.headline .readBtn').click(function() {
+                location.href = '/detail.php?story='+popularNews[0].optionalLink.url+"&imgUrl="+popularNews[0].optionalPicture.url+"&publishDate="+popularNews[0].publicationTime;
+            })
         },
         error: function (jqXhr, textStatus, errorMessage) {
                 console.log(errorMessage);
