@@ -1,6 +1,6 @@
 $(document).ready( function(){
 
-    $.ajax('/football/php_scraper/detail_scrap.php', {
+    $.ajax('/php_scraper/detail_scrap.php', {
         type: 'POST',
         data: {
             story: $("#storyValue").val()
