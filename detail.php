@@ -80,7 +80,9 @@
         </div>
 	</div>
 
-	<input type="text" hidden value=<?= $_GET['story'] ?> id="storyValue" />
+	<input type="text"  value=<?= $_GET['story'] ?> id="storyValue" />
+    <input type="text"  value=<?= $_GET['imgUrl'] ?> id="imgUrl" />
+    <input type="text"  value=<?= $_GET['publicationTime'] ?> id="publicationTime" />
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
