@@ -187,13 +187,22 @@
 
 /* body end */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
+  .col-md-4 {
+    max-width: 100%;
+  }
+  .homepage_body .row {
+    display: flex;
+    flex-direction: column;
+  }
+
   .homepage_body .exploringNews {
     padding-right: 0px;
     margin: auto;
     padding-bottom: 20px;
   }
   .homepage_body .popularNews {
+    padding-top: 40px;
     padding-left: 0px;
     margin: auto;
   }
