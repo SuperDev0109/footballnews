@@ -18,7 +18,7 @@
 		<!-- navMenu end -->
 		<!-- header start -->
 		<div class="homepage_header">
-			<img src="img/logo.png" />
+			<a href="/"><img src="img/logo.png" /></a>
 			<button class="openbtn" onclick="openNav()">☰</button> 
 		</div>
 		<!-- header end -->
