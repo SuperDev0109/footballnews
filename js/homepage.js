@@ -35,19 +35,21 @@ $(document).ready( function(){
                     location.href = '/detail.php?story='+popularNews[index].optionalLink.url+"&imgUrl="+popularNews[index].optionalPicture.url+"&publishDate="+popularNews[index].publicationTime;
                 });
             });
+
+            $('.exploringNews .box .readBtn').each(function(index) {
+                $(this).on('click', function() {
+                    location.href = '/detail.php?story='+popularNews[index].optionalLink.url+"&imgUrl="+popularNews[index].optionalPicture.url+"&publishDate="+popularNews[index].publicationTime;
+                });
+            });
+
+            $('.popularNews .box .readBtn').each(function(index) {
+                $(this).on('click', function() {
+                    location.href = '/detail.php?story='+mostNews[index].content.optionalLink.url+"&imgUrl="+mostNews[index].content.optionalPicture.url+"&publishDate="+mostNews[index].content.publicationTime;
+                });
+            });
         },
         error: function (jqXhr, textStatus, errorMessage) {
                 console.log(errorMessage);
         }
-    });
-
-    $('.box .readBtn').each(function() {
-        $(this).on('click', function() {
-            $("#news_title").text($(this).attr("title"));
-            $("#news_detail").html($(this).attr("detail"));
-            // $("#news_src").html($(this).attr("detail"));
-            $("#news_src").html("<img src="+$(this).attr("imgexternalurl")+" width='100%' />");
-            $("#detailModal").modal();
-        });
     });
 });

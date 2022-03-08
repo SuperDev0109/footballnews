@@ -157,7 +157,7 @@
   transform: translate(-50%, -50%); */
   background-color: #FFFFFF;
   background: rgba(255, 255, 255, 1); 
-  backdrop-filter: blur(8px); 
+  /* backdrop-filter: blur(8px);  */
   padding: 30px 50px;
   z-index: 999;
   margin-top: -40px;
@@ -177,12 +177,6 @@
   width: 150px;
   outline: 0px;
   cursor: pointer;
-}
-
-.headline .readBtn:hover {
-  background-color: #f1c42e;
-  color: #010101;
-  font-weight: bold;
 }
 
 /* body end */
@@ -207,3 +201,4 @@
     margin: auto;
   }
 }
+

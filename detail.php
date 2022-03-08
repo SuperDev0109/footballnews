@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="news_body">
                     <div class="panel1">
-                        <p class="title1"><?= $_GET['publishDate'] ?></p>
+                        <p class="title1"><?= str_replace(array('T', 'Z'), array(' ', ' '), $_GET['publishDate']) ?></p>
                         <p class="title2">FOOTBALL EURO SPORT <br />
                             CUP </p>
                     </div>
