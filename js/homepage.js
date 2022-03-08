@@ -7,6 +7,7 @@ $(document).ready( function(){
         },
         success: function (data, status, xhr) {
             var popularNews = data.data.sportFeed.edges[0].node.cards[0].mostReadContents;
+            var mostNews = data.data.sportFeed.edges[1].node.cards;
             $('.exploringNews .box').each(function(index) {
                 $(this).children('.title1').html( popularNews[index].title.substring(0, 30).concat('...') );
                 $(this).children('.readBtn').attr('title', popularNews[index].title );
@@ -17,12 +18,12 @@ $(document).ready( function(){
             })
 
             $('.popularNews .box').each(function(index) {
-                $(this).children('.title1').html( popularNews[index+3].title.substring(0, 30).concat('...') );
-                $(this).children('.readBtn').attr('title', popularNews[index+3].title );
-                $(this).children('.title2').html( popularNews[index+3].seoTeaser.substring(0, 70).concat('...') );
-                $(this).children('.readBtn').attr('detail', popularNews[index+3].seoTeaser );
+                $(this).children('.title1').html( mostNews[index].content.title.substring(0, 30).concat('...') );
+                $(this).children('.readBtn').attr('title', mostNews[index].content.title );
+                $(this).children('.title2').html( mostNews[index].content.seoTeaser.substring(0, 70).concat('...') );
+                $(this).children('.readBtn').attr('detail', mostNews[index].content.seoTeaser );
                 
-                $(this).children('.readBtn').attr('imgexternalurl', popularNews[index+3].optionalPicture.url );
+                $(this).children('.readBtn').attr('imgexternalurl', mostNews[index].content.optionalPicture.url );
             })
 
 

@@ -53,7 +53,7 @@
                             I judged he had got drownded, and I wasn’t ever going to get out any more. I was scared. </p> -->
                     </div>
                     <div class="panel3"></div>
-                    <div class="panel4">
+                    <!-- <div class="panel4">
                         <p class="title1">Leave a Comment</p>
                         <textarea class="customTextarea" rows="10" placeholder="Type..."></textarea>
                         <div class="box">
@@ -61,7 +61,7 @@
                             <input type="email" placeholder="Email" />
                         </div>
                         <button>Post Comment</button>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- footer -->
@@ -80,9 +80,9 @@
         </div>
 	</div>
 
-	<input type="text"  value=<?= $_GET['story'] ?> id="storyValue" />
-    <input type="text"  value=<?= $_GET['imgUrl'] ?> id="imgUrl" />
-    <input type="text"  value=<?= $_GET['publicationTime'] ?> id="publicationTime" />
+	<input type="text" hidden value=<?= $_GET['story'] ?> id="storyValue" />
+    <input type="text" hidden value=<?= $_GET['imgUrl'] ?> id="imgUrl" />
+    <input type="text" hidden value=<?= $_GET['publicationTime'] ?> id="publicationTime" />
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

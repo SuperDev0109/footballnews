@@ -51,6 +51,22 @@
 								<p class="line"></p>
 							</div>
 						</div>
+						<div class="box">
+							<p class="title1">Loading...</p>
+							<p class="title2">Loading...</p>
+							<button class="readBtn">Read more -></button>
+							<div class="lineBox">
+								<p class="line"></p>
+							</div>
+						</div>
+						<div class="box">
+							<p class="title1">Loading...</p>
+							<p class="title2">Loading...</p>
+							<button class="readBtn">Read more -></button>
+							<div class="lineBox">
+								<p class="line"></p>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-4 newsImageBoxPanel">
@@ -60,6 +76,22 @@
 				</div>
 				<div class="col-md-4">
 					<div class="popularNews">
+						<div class="box">
+							<p class="title1">Loading...</p>
+							<p class="title2">Loading...</p>
+							<button class="readBtn">Read more -></button>
+							<div class="lineBox">
+								<p class="line"></p>
+							</div>
+						</div>
+						<div class="box">
+							<p class="title1">Loading...</p>
+							<p class="title2">Loading...</p>
+							<button class="readBtn">Read more -></button>
+							<div class="lineBox">
+								<p class="line"></p>
+							</div>
+						</div>
 						<div class="box">
 							<p class="title1">Loading...</p>
 							<p class="title2">Loading...</p>
