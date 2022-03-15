@@ -29,7 +29,6 @@ $(document).ready( function(){
 
             $('.newsImageBox').html("<div class='headlineBox'><a href='"+'/detail.php?story='+popularNews[0].optionalLink.url+"&imgUrl="+popularNews[0].optionalPicture.url+"&publishDate="+popularNews[0].publicationTime+"'><img src='"+popularNews[0].optionalPicture.url+"' width='100%'/></a><div class='headline'><p class='title1'>"+popularNews[0].title+"</p><button class='readBtn'>Read more -></button></div></div>  <div class='headlineBox'><a href='"+'/detail.php?story='+popularNews[1].optionalLink.url+"&imgUrl="+popularNews[1].optionalPicture.url+"&publishDate="+popularNews[1].publicationTime+"'><img src='"+ popularNews[1].optionalPicture.url+"' width='100%' /></a><div class='headline'><p class='title1'>"+popularNews[1].title+"</p><button class='readBtn'>Read more -></button></div></div>");
 
-
             $('.headlineBox').each(function(index) {
                 $(this).on('click', function() {
                     location.href = '/detail.php?story='+popularNews[index].optionalLink.url+"&imgUrl="+popularNews[index].optionalPicture.url+"&publishDate="+popularNews[index].publicationTime;
