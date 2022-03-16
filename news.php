@@ -20,7 +20,7 @@
 
     <div class="homepage_section">
 		<!-- navMenu start -->
-		<div id="mySidepanel" class="sidepanel">
+		<div id="mySidepanel" class="sidepanel"> 
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 			<a href="/index.php">Home</a>
 			<a href="/news.php">News</a>
