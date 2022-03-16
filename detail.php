@@ -6,6 +6,15 @@
 	<title>Football</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/detail.css" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109815160-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109815160-1');
+    </script>
 </head>
 <body class="homepage" style="font-family: monospace;">
     <div class="homepage_section">
@@ -18,7 +27,7 @@
 		<!-- navMenu end -->
 		<!-- header start -->
 		<div class="homepage_header">
-			<a href="/"><img src="img/logo.png" /></a>
+			<a href="/"><img src="img/logo.png" /></a> 
 			<button class="openbtn" onclick="openNav()">☰</button> 
 		</div>
 		<!-- header end -->
