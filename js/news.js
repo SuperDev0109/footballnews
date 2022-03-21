@@ -1,6 +1,6 @@
 $(document).ready( function(){
 
-    $.ajax('https://netsport.eurosport.io/?extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22a090e03e36f87e20da69bf0497d8d540e88a05c70f4dac71c4e103d38f1ad554%22%7D%7D&variables=%7B%22sportId%22%3A22%2C%22first%22%3A4%2C%22after%22%3A%22eyJsYXN0RW5kRGF0ZVBsYW5uZXIiOiIyMDIyLTAzLTA0VDEyOjE5OjQ3LjYwM1oiLCJwb3NpdGlvbiI6MywibGFzdE94eWdlblpvbmVJbmRleCI6MX0%3D%22%7D', {
+    $.ajax('https://netsport.eurosport.io/?extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22a090e03e36f87e20da69bf0497d8d540e88a05c70f4dac71c4e103d38f1ad554%22%7D%7D&variables=%7B%22sportId%22%3A22%2C%22first%22%3A4%2C%22after%22%3A%22eyJsYXN0RW5kRGF0ZVBsYW5uZXIiOiIyMDIyLTAzLTIwVDExOjE1OjAzLjk2M1oiLCJwb3NpdGlvbiI6MywibGFzdE94eWdlblpvbmVJbmRleCI6MX0%3D%22%7D', {
         type: 'GET',  // http method
         headers: {
             'domain': 'www.eurosport.com'
