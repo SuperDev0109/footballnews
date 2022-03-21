@@ -6,13 +6,16 @@ $(document).ready( function(){
             'domain': 'www.eurosport.com'
         },
         success: function (data, status, xhr) {
+            var popularNews = data.data.sportFeed.edges[0].node.cards[0].mostReadContents;
+            // var mostNews = data.data.sportFeed.edges[1].node.cards;
+
             var news = data.data.sportFeed;
             $('.row .col-md-4 .box').each(function(index) {
                 if (index < 6) {
-                    $(this).children('div').html("<a href='"+'/detail.php?story='+news.edges[1].node.cards[index].content.optionalLink.url+"&imgUrl="+news.edges[1].node.cards[index].content.optionalPicture.url+"&publishDate="+news.edges[1].node.cards[index].content.publicationTime+"'><img src="+news.edges[1].node.cards[index].content.optionalPicture.url+" width='100%' /></a>");
-                    $(this).children('.title1').html( news.edges[1].node.cards[index].content.publicationTime );
-                    $(this).children('.title3').html( news.edges[1].node.cards[index].content.title );
-                    $(this).children('.title4').html( news.edges[1].node.cards[index].content.seoTeaser );
+                    $(this).children('div').html("<a href='"+'/detail.php?story='+popularNews[index].optionalLink.url+"&imgUrl="+popularNews[index].optionalPicture.url+"&publishDate="+popularNews[index].publicationTime+"'><img src="+popularNews[index].optionalPicture.url+" width='100%' /></a>");
+                    $(this).children('.title1').html( popularNews[index].publicationTime );
+                    $(this).children('.title3').html( popularNews[index].title );
+                    $(this).children('.title4').html( popularNews[index].seoTeaser );
                 } else {
                     $(this).children('div').html("<a href='"+'/detail.php?story='+news.edges[2].node.cards[index-6].content.optionalLink.url+"&imgUrl="+news.edges[2].node.cards[index-6].content.optionalPicture.url+"&publishDate="+news.edges[1].node.cards[index-6].content.publicationTime+"'><img src="+news.edges[2].node.cards[index-6].content.optionalPicture.url+" width='100%' /></a>");
                     $(this).children('.title1').html( news.edges[2].node.cards[index-6].content.publicationTime );
