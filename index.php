@@ -32,7 +32,7 @@
 		<!-- header end -->
 
 		<div class="homepage_body">
-			<div class="row">
+			<div class="row news_box">
 				<div class="col-md-4">
 					<div class="exploringNews">
 						<div class="box">
