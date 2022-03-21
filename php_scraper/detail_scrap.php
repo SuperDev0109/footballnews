@@ -14,8 +14,8 @@ $doc->loadHTML($htmlString);
 $xpath = new DOMXPath($doc);
 
 $title = $xpath->evaluate('//title');
-$desc = $xpath->evaluate('//h2[@class="ArticleHeroBlack__teaser--light mb-5 sm:mb-8 lg:mb-5 text-br-2-90 light:text-br-2-20 caption-s5-fx sm:text-16 sm:leading-19 lg:text-18 lg:leading-22 lg:w-3/4"]');
-$alt = $xpath->evaluate('//div[@class="lg:common-container xl:w-full bg-br-2-10 light:bg-transparent bg-opacity-30 mt-5 flex relative items-center w-100"]//div//figcaption//p');
+$desc = $xpath->evaluate('//h2[@class="ArticleHeroBlack__teaser--light"]');
+$alt = $xpath->evaluate('//div[@class="lg:common-container"]//div//figcaption//p');
 
 $data = [];
 
