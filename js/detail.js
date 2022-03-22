@@ -1,6 +1,6 @@
 $(document).ready( function(){
 
-    $.ajax('/php_scraper/detail_scrap.php', {
+    $.ajax('/git%20footballl/footballnews/php_scraper/detail_scrap.php', {
         type: 'POST',
         data: {
             story: $("#storyValue").val()
