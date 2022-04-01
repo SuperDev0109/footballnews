@@ -74,16 +74,7 @@
                 </div>
 
                 <!-- footer -->
-                <div class="footer">
-                    <div class="left">
-                        <span>©2022.footballviral</span>
-                    </div>
-                    <div class="right">
-                        <span>Privacy Policy | </span>
-                        <span>Term and conditions | </span>
-                        <span>Faqs</span>
-                    </div>
-                </div>
+                <?php include('./footer.php'); ?>
                 <!-- footer end -->
             </div>
         </div>

@@ -54,6 +54,7 @@
     background-color: #010101;
     background-image: url('../img/back.png');
     background-size: cover;
+    font-family: monospace;
 }
 
 .homepage_section {
@@ -140,5 +141,9 @@
   color: white;
   font-size: 20px;
   font-weight: unset;
+}
+.white {
+  color: white;
+  text-decoration: none;
 }
 /* footer end */

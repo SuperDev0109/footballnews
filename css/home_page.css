@@ -54,6 +54,7 @@
     background-color: #010101;
     background-image: url('../img/back.png');
     background-size: cover;
+    font-family: monospace;
 }
 
 .homepage_section {
