@@ -1,0 +1,121 @@
+/* navmenu start */
+.sidepanel  {
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     height: 100vh;
+     top: 0;
+     right: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+   }
+   
+   .sidepanel a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+   }
+   
+   .sidepanel a:hover {
+     color: #f1f1f1;
+   }
+   
+   .sidepanel .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+   }
+   
+   .openbtn {
+     font-size: 20px;
+     cursor: pointer;
+     background-color: #111;
+     color: white;
+     padding: 10px 15px;
+     border: none;
+     outline: 0px !important;
+   }
+   
+   .openbtn:hover {
+     background-color:#444;
+   }
+ 
+ /* navMenu end  */
+ 
+ /* header start */
+ .homepage {
+     height: 100vh;
+     background-color: #010101;
+     background-image: url('../img/back.png');
+     background-size: cover;
+     font-family: monospace;
+ }
+ 
+ .homepage_section {
+     padding: 30px;
+ }
+ 
+ .homepage_header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+ /* header end */
+
+.privacy_panel {
+     color: white;
+}
+.tite1 {
+     text-align: center;
+     font-size: 25px;
+     font-weight: 600;
+     padding-bottom: 30px;
+}
+.title2 {
+     font-size: 18px;
+}
+.title3 {
+     font-size: 20px;
+     font-weight: 400;
+     padding-top: 15px;
+}
+.title4 {
+     font-size: 18px;
+     margin-left: 20px;
+}
+.title5 {
+     font-size: 18px;
+     margin-left: 40px;
+}
+
+/* footer */
+.footer {
+     margin-top: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   
+   .footer .left {
+     color: white;
+     font-size: 20px;
+     font-weight: unset;
+   }
+   
+   .footer .right {
+     color: white;
+     font-size: 20px;
+     font-weight: unset;
+   }
+   .white {
+     color: white;
+     text-decoration: none;
+   }
+   /* footer end */

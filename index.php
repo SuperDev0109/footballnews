@@ -21,7 +21,9 @@
 		<div id="mySidepanel" class="sidepanel">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 			<a href="/index.php">Home</a>
-			<a href="/news.php">News</a>
+			<a href="/news.php">News</a>			
+			<a href="/privacy.php">Privacy Policy</a>
+			<a href="/terms.php">Terms and Conditions</a>
 		</div>
 		<!-- navMenu end -->
 		<!-- header start -->
@@ -159,7 +161,7 @@
 	<script src="js/homepage.js"></script>
 	<script>
 		function openNav() {
-			document.getElementById("mySidepanel").style.width = "250px";
+			document.getElementById("mySidepanel").style.width = "400px";
 		}
 
 		function closeNav() {
