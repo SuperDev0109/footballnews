@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Football</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="css/home_page.css" /> -->
 	<link rel="stylesheet" href="css/style.css" />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109815160-1"></script>
     <script>
@@ -132,32 +131,8 @@
 			</div>
 		</div>
 	</div>
-	  
-	  <!-- Modal -->
-	  <!-- <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-		  <div class="modal-content">
-			<div class="modal-header">
-			  <h5 class="modal-title" id="exampleModalLongTitle">Detail</h5>
-			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			  </button>
-			</div>
-			<div class="modal-body">
-			  <p id="news_src"></p> 
-			  <p id="news_title"></p>
-			  <p id="news_detail"></p>
-			</div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		  </div>
-		</div>
-	  </div> -->
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="js/homepage.js"></script>
 	<script>

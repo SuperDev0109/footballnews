@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Football</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="css/detail.css" /> -->
 	<link rel="stylesheet" href="css/style.css" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109815160-1"></script>
@@ -48,32 +47,8 @@
 						<p class="title_detail">Loading...</p>
 						<div class="imgBox"><img src=<?= $_GET['imgUrl'] ?> /></div>
 						<p class="title_alt">Loading...</p>
-                        <!-- <div class="box">
-                            <div><img src="img/news1_detail1.png" /></div>
-                            <div><img src="img/news1_detail2.png" /></div>
-                            <div><img src="img/news1_detail3.png" /></div>
-                        </div> -->
-                        <!-- <p class="title2">FOOTBALL WORLD CUP </p>
-                        <p class="title1">But by and by pap got too handy with his hick’ry, and I couldn’t stand it. I was all over welts. He got to going away 
-                            so much, too, and locking me in. Once he locked me in and was gone three days. It was dreadful lonesome. 
-                            I judged he had got drownded, and I wasn’t ever going to get out any more. I was scared. 
-                            I made up my mind I would fix up some way to leave there.But by and by pap got too handy with his hick’ry, and I couldn’t stand it. 
-                            I was all over welts. He got to going away so much, too, and locking me in. Once he locked me in and was gone three days. It was dreadful lonesome. 
-                            I judged he had got drownded, and I wasn’t ever going to get out any more. I was scared. 
-                            I made up my mind I would fix up some way to leave there.But by and by pap got too handy with his hick’ry, and I couldn’t stand it. I was all over welts. 
-                            He got to going away so much, too, and locking me in. Once he locked me in and was gone three days. It was dreadful lonesome. 
-                            I judged he had got drownded, and I wasn’t ever going to get out any more. I was scared. </p> -->
                     </div>
                     <div class="panel3"></div>
-                    <!-- <div class="panel4">
-                        <p class="title1">Leave a Comment</p>
-                        <textarea class="customTextarea" rows="10" placeholder="Type..."></textarea>
-                        <div class="box">
-                            <input type="text" placeholder="Name" />
-                            <input type="email" placeholder="Email" />
-                        </div>
-                        <button>Post Comment</button>
-                    </div> -->
                 </div>
 
                 <!-- footer -->
