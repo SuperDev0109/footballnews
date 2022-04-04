@@ -192,6 +192,34 @@
 /* news body end */
 
 
+
+.privacy_panel {
+    color: white;
+}
+.tite1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.title2 {
+    font-size: 18px;
+}
+.title3 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.title4 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+.title5 {
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+
 /* footer */
 .footer {
     margin-top: 100px;

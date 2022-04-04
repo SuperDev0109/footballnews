@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Football</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/detail.css" />
+	<!-- <link rel="stylesheet" href="css/detail.css" /> -->
+	<link rel="stylesheet" href="css/style.css" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109815160-1"></script>
     <script>
@@ -36,7 +37,7 @@
 
         <div class="newspage_section">
             <div class="container">
-                <div class="news_body">
+                <div class="news_body_detail">
                     <div class="panel1">
                         <p class="title1"><?= str_replace(array('T', 'Z'), array(' ', ' '), $_GET['publishDate']) ?></p>
                         <p class="title2">FOOTBALL EURO SPORT <br />
