@@ -2,7 +2,7 @@ $(document).ready( function(){
 
     $.ajax('/php_scraper/detail_scrap.php', {
         type: 'POST',
-        data: {
+        data: { 
             story: $("#storyValue").val()
         },
         success: function (html, status, xhr) {
