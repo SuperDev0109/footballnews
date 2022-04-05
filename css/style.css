@@ -400,6 +400,33 @@
  /* news detail end */
  
 
+ .privacy_panel {
+  color: white;
+}
+.privacy_panel .tite1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.privacy_panel .title2 {
+  font-size: 18px;
+}
+.privacy_panel .title3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.privacy_panel .title4 {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.privacy_panel .title5 {
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+
 
 /* footer */
 .footer {
